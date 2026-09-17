@@ -1,10 +1,4 @@
-class Node {
-  constructor(data, left = null, right = null) {
-    this.data = data;
-    this.left = left;
-    this.right = right;
-  }
-}
+import Node from "./Node.js";
 
 class Tree {
   constructor(arr) {
@@ -342,3 +336,5 @@ class Tree {
     this.root = this.buildTree(arr);
   }
 }
+
+export default Tree;
